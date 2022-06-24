@@ -1,0 +1,48 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 1px dashed black;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.peculiarities-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.peculiarities-list .item {
+  width: 270px;
+
+  outline: 1px dashed black;
+}
+
+.thumb {
+  outline: 1px dashed black;
+
+  width: 270px;
+  height: 120px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+
+  padding: 25px 100px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  fill: red;
+}
