@@ -38,11 +38,19 @@
   background: #f5f4fa;
   border-radius: 4px;
 
-  padding: 25px 100px;
+  /* padding: 25px 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: blue; */
 }
 
 .icon {
-  width: 70px;
-  height: 70px;
-  fill: red;
+  /* width: 70px;
+  height: 70px; */
+  /* fill: red; */
+}
+
+.icon:hover {
+  fill: blue;
 }
